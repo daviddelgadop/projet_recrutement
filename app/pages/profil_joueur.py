@@ -223,7 +223,6 @@ Le choix **Même poste** est généralement le plus pertinent pour le recrutemen
 
         st.caption(
             "Plus le contour est éloigné du centre, plus la note est élevée. "
-            "Les surfaces sont volontairement transparentes : les zones de chevauchement restent visibles."
         )
 
         lignes = []
@@ -252,4 +251,4 @@ Le choix **Même poste** est généralement le plus pertinent pour le recrutemen
             }
         )
         st.dataframe(lignes, use_container_width=True, hide_index=True)
-        st.caption("Différence = joueur principal − joueur de comparaison. La valeur marchande n'est pas intégrée au radar.")
+        st.caption("Différence = joueur principal − joueur de comparaison. ")
